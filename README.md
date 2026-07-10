@@ -1,24 +1,53 @@
-# Scroll Blocker
+# Scroll Blocker v2.0
 
 > "Not made by a boomer."
 
-Scroll Blocker is a lightweight, aggressive Chrome Extension designed to save your productivity by closing or redirecting YouTube Shorts instantly.
+Scroll Blocker 2.0 has evolved from a simple script into a highly aggressive, fully customizable productivity engine. It doesn't just close YouTube Shorts anymore; it actively fights your dopamine addiction using gamification, dynamic punishments, and hardcore lockout mechanics.
 
 ---
 
-## Features
+## The Feature Arsenal
 
-* **Session-Based Activation:** Every time you launch Chrome, a prompt asks if you want to activate the blocker for that specific session.
-* **Instant Mitigation:** The moment you land on a `youtube.com/shorts` URL, the tab is closed or redirected based on your choices.
-* **Audio Warning:** Plays a loud, unskippable audio effect every time you slip up and open a Short.
-* **Relapse Tracker:** A real-time counter in the settings page tracks exactly how many times you've been saved from scrolling.
-* **Hardcore Mode:** If enabled, this mode removes the "No" button from the startup prompt, forcing activation.
-* **Smart Whitelist:** Allows you to add specific channel names or keywords to bypass the block for educational content.
-* **Time Scheduling:** Automatically restricts your blocking hours so you can scroll freely when your workday is done.
+This massive 2.0 update introduces 25 new systems to keep you focused:
+
+### Gamification & Tracking
+* **Focus Streak:** Tracks your consecutive days of pure, unbroken productivity.
+* **Shame Coins System:** Accumulates virtual negative currency every time you trigger the blocker.
+* **Life Seconds Saved:** Converts blocked Shorts into an estimated metric of actual real-life minutes saved.
+* **Weekly Goals Checklist:** Tracks your progress against a minimum weekly focus baseline.
+* **Midnight Rollover Sync:** Automatically resets your daily attempt allowances based on your local timezone.
+
+### The Punishment Engine
+* **Custom Redirect URL:** Forces your browser to open a specific website (like your online course or a Wikipedia page) when you fail.
+* **Rickroll Lottery:** Configure a percentage chance to secretly swap the standard audio punishment with Rick Astley.
+* **Motivational Desktop Insults:** Pushes native OS notifications that insult your lack of discipline when you slip up.
+* **Blur Screen Intensity:** Dynamically blurs the YouTube interface right before the blocker execution triggers.
+* **Auto-Mute Trigger:** Instantly mutes the video player before the tab is nuked to prevent audio bleed from Shorts.
+* **Ghost Mode:** Disables all audio and notifications for a completely silent execution (perfect for office or school environments).
+* **Granular Volume Control:** Analog slider specifically dedicated to managing the punishment audio volume.
+* **Audio Pitch Modifier:** Speeds up or slows down the punishment audio frequency for custom comedic effect.
+
+### Hardcore Lockout Mechanics
+* **Strict Configuration Mode:** Prevents you from disabling the extension's settings if you have already failed an attempt today.
+* **Max Daily Attempts Allowance:** Sets a hard limit on how many times you can fail before the extension takes extreme measures.
+* **Hard Lockout Status:** Revokes your access to YouTube entirely if you exhaust your daily fail allowance.
+* **Blackout Mode:** Extends the blocking protocol to the *entirety* of the YouTube domain, not just Shorts.
+
+### Smart Filtering & Accessibility
+* **Right-Click Context Menu:** Highlight text on any page, right-click, and instantly add it to your blocker Whitelist.
+* **Multi-Keyword Array Splitting:** Supports complex, comma-separated whitelists to bypass educational content.
+* **Timed Blocker Schedule:** Automatically restricts your blocking hours so you can scroll freely after your workday ends.
+* **Responsive Control Grid:** A brand new, ultra-compact UI dashboard to manage the massive array of new settings.
+
+### Engine Architecture
+* **Engine Refresh Optimization:** Detection cycle reduced to 250ms to beat Chrome's dynamic rendering and kill the tab instantly.
+* **Advanced Debounce Engine:** Prevents the accidental closing of legitimate search tabs during cyclic redirects.
+* **Audio Script Isolation:** Bypasses Chrome's strict Content Security Policies for guaranteed audio playback.
+* **Cross-Session Storage Cache:** Configurations and stats are permanently cached and never expire on browser close.
 
 ---
 
-## How to Install 🛠️
+## How to Install ⚙️
 
 Since this extension is distributed outside the official Chrome Web Store, you can install it manually in less than 60 seconds:
 
@@ -28,12 +57,6 @@ Since this extension is distributed outside the official Chrome Web Store, you c
 4. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner.
 5. **Load the Extension:** Click the **Load unpacked** button in the top left corner.
 6. **Select the folder:** Choose the extracted folder containing the `manifest.json` file.
-
----
-
-## Customization ⚙️
-
-Click on the extension icon in your Chrome toolbar to open the Control Center. From there, you can track your statistics, change the punishment type (Instant Close vs. Random Wikipedia Redirect), customize the audio URL, and configure your daily schedule.
 
 ---
 
